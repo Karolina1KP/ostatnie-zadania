@@ -1,0 +1,39 @@
+p#pogrubienie_haratym {
+font-weight: bold;
+font-size: 32px;
+color: #D0E17A;
+}
+
+p#pochylona_haratym {
+font-style: italic;
+font-size: 37pt;
+color: #168655E;
+}
+
+p#index_gorny_haratym {
+wertical-align: super;
+font-size: 1,2cm;
+color: #EE3FEA;
+}
+
+p#index_dolny_haratym {
+wertical-align: sub;
+font-size: 1,9cm;
+color: #35A247E;
+}
+
+p#mono_haratym {
+font-family: monospace;
+font-size: 42px;
+color: #1AE96E6;
+}
+
+p#powiekszenie_haratym {
+font-size: larger; 
+color: #8420D8;
+}
+
+p#pomniejszenie_haratym {
+font-size: smaller;
+color: #11C0E98;
+}

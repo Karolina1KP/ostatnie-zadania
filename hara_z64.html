@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Haratym Z64_html</title> 
+</head>
+<body>
+<table border=2 width=600 height=300>
+<tr>
+<td colspan=6> <p align="center">Zaokrąglenie narożników obszarów bloków np. DIV</p> </td>
+</tr>
+<tr>
+<td colspan=3> <p align="center">Zaokrąglenie górnego-lewego narożnika:</p> </td>
+<td colspan=3> <p align="center">selektor { border-top-left-radius: zaokrąglenie }</p> </td>
+
+</tr>
+<tr>
+<td colspan=3> <p align="center">Zaokrąglenie górnego-prawego 
+narożnika: </p> </td>
+<td colspan=3> <p align="center"> selektor { border-top-right-radius: zaokrąglenie } </p> </td>
+</tr>
+
+<tr>
+<td colspan=3> <p align="center">Zaokrąglenie dolnego-prawego 
+narożnika: </p> </td>
+<td colspan=3> <p align="center"> selektor { border-bottom-right-radius: zaokrąglenie }  </p> </td>
+</tr>
+
+<tr>
+<td colspan=3> <p align="center">Zaokrąglenie dolnego-lewego 
+narożnika: </p> </td>
+<td colspan=3> <p align="center"> selektor { border-bottom-left-radius: zaokrąglenie }  </p> </td>
+</tr>
+</table>
+<br><br><br>
+
+Zastosowanie:<br>
+We wszystkich przypadkach selektorem może być dowolny znacznik, np.  
+<ol type=filled circle>
+<li> p – akapit </li>
+<li> h1 –nagłówek </li>
+<li> div –blok </li>
+</ol>
+<br><br>
+
+Natomiast "zaokrąglenie" określa promień wyrażony w jednostkach długości albo w 
+procentach (względem obszaru obramowania - zobacz: Model pudełkowy). Możliwe jest tutaj 
+podanie: 
+<ol type=filled circle>
+<li> jednej wartości - zaokrąglenie symetryczne </li>
+<li> dwóch wartości - pierwsza określa poziomy promień ćwiartki elipsy zaokrąglenia, a 
+druga - pionowy </li></ol>
+<br><br>
+Zaokrąglone narożniki to bardzo ciekawy efekt wizualny, który może zwiększyć estetykę 
+strony. Co ciekawe, element wcale nie musi mieć obramowania, aby miał zaokrąglone 
+narożniki.<br> Wystarczy jeśli będzie miał ustalone jakieś tło, aby efekt był widoczny na ekranie. 
+Ale uwaga: tekst wewnątrz elementu nie zostanie zawinięty do zaokrąglonych rogów. Jeśli 
+promień zaokrąglenia będzie zbyt duży, tekst wyjdzie na zewnątrz. <br><br>
+Przykład:<br>
+<textarea rows=1 cols=30>
+border-top-right-radius: 10px 
+</textarea>
+<br><br><br><br>
+ABY WYCENTROWAĆ DIV<br><br>
+W definicja CSS bloku DIV należy wpisać: <br>
+<textarea rows=2 cols=30>
+margin-left: auto; 
+margin-right: auto; 
+</textarea>
+
+
+</body>
+</html>
+<!--  Haratym Z64_html  -->

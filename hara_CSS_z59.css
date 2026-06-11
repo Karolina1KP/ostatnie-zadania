@@ -1,0 +1,19 @@
+A  
+{ 
+} 
+A:link  
+{ 
+font-size: 18pt; 
+text-decoration: none; 
+color: blue; 
+} 
+A:visited  
+{ 
+color: green; 
+} 
+A:hover  
+{ 
+color: red; 
+text-decoration: underline; 
+} 
+/*Haratym Z59_CSS*/

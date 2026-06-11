@@ -1,0 +1,27 @@
+p 
+    { 
+color:light green; 
+    font-size:23pt; 
+    } 
+ 
+p:first-letter 
+    { 
+color:blue; 
+font-size:120pt; 
+    } 
+H1 
+{ 
+color:purple; 
+font-size:40pt; 
+} 
+H1:first-letter 
+{ 
+color:silver; 
+font-size:130pt; 
+}
+
+p:first-line
+    { 
+color:red; 
+font-size:20pt; 
+    } 
